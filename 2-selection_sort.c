@@ -4,11 +4,11 @@
  * swap - function that swap.
  * @xp: First parametre
  * @yp: second param
- * 
+ *
  * Return: Nothing
 */
 void swap(int *xp, int *yp)
-{ 
+{
     int temp = *xp;
     *xp = *yp;
     *yp = temp;
