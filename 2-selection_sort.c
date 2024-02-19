@@ -18,14 +18,14 @@ void swap(int *xp, int *yp)
  * selection_sort - Function implement algorithme selection sort
  * @array: The array to be sorted
  * @size: The size of the array.
- * 
+ *
  * Retrun: Nothing
 */
 
 void selection_sort(int *array, size_t size)
 {
     size_t i, j, min_idx;
-  
+
     for (i = 0; i < size-1; i++)
     {
         min_idx = i;
@@ -36,6 +36,6 @@ void selection_sort(int *array, size_t size)
            {
             swap(&array[min_idx], &array[i]);
             print_array(array, size);
-           }    
-    } 
+           }
+    }
 }
