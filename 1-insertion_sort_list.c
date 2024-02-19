@@ -4,7 +4,9 @@
  * insertion_sort_list -  function that sorts a doubly linked list of integers
  * in ascending order using the Insertion sort algorithm
  * @list: head node of the linked list
+ * Return: Nothing.
  */
+
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *current, *swap, *prv;
