@@ -26,6 +26,15 @@ void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+void sort_alg(int *arr, int left, int right, size_t size);
+int split(int *arr, int left, int right, size_t size);
+void swap(listint_t **head, listint_t *node1, listint_t *node2);
+void heap_sort(int *array, size_t size);
+void heapify(int *array, int idx, int idx2, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+void sort_alg(int *arr, int left, int right, size_t size);
+int split(int *arr, int left, int right, size_t size);
+
 
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
