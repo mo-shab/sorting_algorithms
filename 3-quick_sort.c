@@ -39,6 +39,7 @@ void sort_alg(int *arr, int left, int right, size_t size)
   * @size: full array size
   * Return: pivot index
   */
+
 int split(int *arr, int left, int right, size_t size)
 {
 	int i, i2, pivot, tmp;

@@ -7,7 +7,7 @@
  *
  * Return: Nothing
 */
-void swap(int *xp, int *yp)
+void swap_array(int *xp, int *yp)
 {
 	int temp = *xp;
 
@@ -35,7 +35,7 @@ void selection_sort(int *array, size_t size)
 				min_idx = j;
 		if(min_idx != i)
 		{
-			swap(&array[min_idx], &array[i]);
+			swap_array(&array[min_idx], &array[i]);
 			print_array(array, size);
 		}
 	}
